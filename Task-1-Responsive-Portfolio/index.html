@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta
+      content="Paras Bhul's responsive developer portfolio"
+      name="description"
+    />
+    <title>Paras Bhul | Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer="" src="script.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main"> Skip to content </a>
+    <header>
+      <nav aria-label="Main navigation" class="nav wrap">
+        <a class="logo" href="#home">
+          P
+          <span> . </span>
+        </a>
+        <button
+          aria-controls="links"
+          aria-expanded="false"
+          aria-label="Open navigation"
+          class="menu"
+        >
+          ☰
+        </button>
+        <div id="links">
+          <a href="#about"> About </a>
+          <a href="#skills"> Skills </a>
+          <a href="#projects"> Projects </a>
+          <a href="#contact"> Contact </a>
+          <button aria-label="Toggle color theme" id="theme">◐</button>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap" id="home">
+        <div>
+          <p class="eyebrow">HELLO, I'M PARAS BHUL</p>
+          <h1>
+            Building useful
+            <br />
+            <em> digital experiences. </em>
+          </h1>
+          <p class="lead">
+            BCA student and aspiring MERN Stack / Full-Stack Developer. I enjoy
+            learning, experimenting and turning ideas into practical web
+            experiences.
+          </p>
+          <a class="btn" href="#projects"> Explore my work &nearrow; </a>
+          <a class="btn ghost" href="#contact"> Contact me </a>
+        </div>
+        <div class="visual">
+          <div class="orb"></div>
+
+      <div class="hero-image">
+    <img src="Profile.jpg" alt="Paras Bhul">
+</div>
+
+      </section>
+      <section class="band" id="about">
+        <div class="wrap split">
+          <div>
+            <p class="eyebrow">01 / ABOUT</p>
+            <h2>
+              Curious mind.
+              <br />
+              <em> Builder's mindset. </em>
+            </h2>
+          </div>
+          <div>
+            <p>
+              I'm pursuing a Bachelor of Computer Applications (BCA) and
+              building a strong foundation in frontend and full-stack
+              development.
+            </p>
+            <p>
+              I believe in learning by doing, writing clean code and improving
+              through practical projects. My current focus is HTML, CSS and
+              JavaScript, with React and backend technologies on my learning
+              roadmap.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="wrap section" id="skills">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>My learning toolkit</h2>
+        <div class="cards">
+          <article>
+            <b> 01 </b>
+            <h3>Frontend</h3>
+            <p>HTML5 &middot; CSS3 &middot; JavaScript</p>
+          </article>
+          <article>
+            <b> 02 </b>
+            <h3>Next to explore</h3>
+            <p>React &middot; Responsive UI &middot; Accessibility</p>
+          </article>
+          <article>
+            <b> 03 </b>
+            <h3>Tools</h3>
+            <p>VS Code &middot; Git &middot; GitHub</p>
+          </article>
+        </div>
+      </section>
+      <section class="band" id="projects">
+        <div class="wrap">
+          <p class="eyebrow">03 / PROJECTS</p>
+          <h2>Selected practice projects</h2>
+          <div class="cards">
+            <article>
+              <b> 01 / WEB </b>
+              <h3>Portfolio Website</h3>
+              <p>A personal website to introduce myself and present my work.</p>
+              <a
+                href="https://github.com/parasbhul2007/Week-1-Portfolio"
+                rel="noopener"
+                target="_blank"
+              >
+                View repository &nearrow;
+              </a>
+            </article>
+            <article>
+              <b> 02 / JS </b>
+              <h3>Calculator</h3>
+              <p>
+                A simple calculator built to practise JavaScript interactions.
+              </p>
+              <a
+                href="https://github.com/parasbhul2007/Week-2-Calculator"
+                rel="noopener"
+                target="_blank"
+              >
+                View repository &nearrow;
+              </a>
+            </article>
+            <article>
+              <b> 03 / JS </b>
+              <h3>Weather App</h3>
+              <p>
+                A weather interface project focused on presenting information
+                clearly.
+              </p>
+              <a
+                href="https://github.com/parasbhul2007/Week-3-Weather-App"
+                rel="noopener"
+                target="_blank"
+              >
+                View repository &nearrow;
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="wrap section" id="contact">
+        <div class="contact">
+          <div>
+            <p class="eyebrow">04 / CONTACT</p>
+            <h2>Let's connect.</h2>
+            <p>Have an idea, opportunity or feedback? Send a message.</p>
+          </div>
+          <form id="contact-form">
+            <label for="name"> Name </label>
+            <input id="name" placeholder="Your name" required="" />
+            <label for="email"> Email </label>
+            <input
+              id="email"
+              placeholder="you@example.com"
+              required=""
+              type="email"
+            />
+            <label for="message"> Message </label>
+            <textarea
+              id="message"
+              placeholder="Your message"
+              required=""
+              rows="4"
+            ></textarea>
+            <button class="btn">Prepare email &nearrow;</button>
+            <small id="status" role="status">
+              Set your email address in script.js before publishing.
+            </small>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="wrap foot">
+      &copy;
+      <span id="year"> </span>
+      Paras Bhul &middot; Built with HTML, CSS and JavaScript
+      <a href="#home"> Back to top &uarr; </a>
+    </footer>
+  </body>
+</html>
